@@ -2,4 +2,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    height: 100svh;
+    justify-content: center;
+    align-items: center;
+}
+
+:root {
+    --main-background: #000;
+    --text-color: #ff0000;
+    --nav-background: #fff
+}
+
+body {
+    background: var(--main-background);
+    color: var(--text-color);
+}
+
+nav {
+    background: var(--nav-background);
 }
