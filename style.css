@@ -3,13 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
-    display: flex;
-    flex-direction: column;
-    height: 100svh;
-    justify-content: center;
-    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 :root {
@@ -21,6 +15,12 @@
 body {
     background: var(--main-background);
     color: var(--text-color);
+
+    display: flex;
+    flex-direction: column;
+    height: 100svh;
+    justify-content: center;
+    align-items: center;
 }
 
 nav {
