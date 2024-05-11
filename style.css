@@ -12,7 +12,7 @@
     --nav-background: #fff
 }
 
-body {
+body, .tudo {
     background: var(--main-background);
     color: var(--text-color);
 
@@ -23,6 +23,23 @@ body {
     align-items: center;
 }
 
+h1 {
+    margin-bottom: 25px;
+}
+
 nav {
     background: var(--nav-background);
+    border-radius: 20px;
+}
+
+.tudo {
+    background-color: gray;
+    height: auto;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+li {
+    margin: 20px;
 }
