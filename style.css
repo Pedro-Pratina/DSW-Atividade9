@@ -9,7 +9,10 @@
 :root {
     --main-background: #000;
     --text-color: #ff0000;
-    --nav-background: #fff
+    --nav-background: #fff;
+    --text-color: #00FF00;
+    --tudo: #808080;
+    --hover-color: #ff332f;
 }
 
 body, .tudo {
@@ -33,13 +36,27 @@ nav {
 }
 
 .tudo {
-    background-color: gray;
+    background-color: var(--tudo);
     height: auto;
     padding: 20px;
     margin: 20px;
     border-radius: 15px;
 }
 
+ul, li{
+    list-style: none;
+}
+
 li {
-    margin: 20px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 700;
+}
+
+li:hover {
+    background: var(--hover-color);
 }
